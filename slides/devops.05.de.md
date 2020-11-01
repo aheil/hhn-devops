@@ -19,7 +19,6 @@ Prof. Dr.-Ing. Andreas Heil
 
 v1.0.1
 
-
 ---
 
 # Idee hinter Containern (1)
