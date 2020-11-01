@@ -1,5 +1,4 @@
 hhn-devops.code-workspace
 *.pptx
-slides/*.pdf
 slides/*.html
 img/*.pptx
