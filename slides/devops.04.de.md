@@ -12,7 +12,7 @@ img[alt~="center"] {
 }
 </style>
 # DevOps 
-## Einführung in Container und Docker
+## Kanban
 Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
@@ -21,182 +21,183 @@ v1.0.0
 
 ---
 
-# Idee hinter Containern (1)
+# Lernziele
 
-* Intuitives Vorgehen
-    * Alle Dienste, Server-Komponenten und Datenbanken auf einem Server/Rechner installieren 
-    * Vorteil: Einfach Installation, einfache Kommunikation unter den Diensten
-    * Nachteil: Über die Zweit immer schwerer warbar 
-
----
-
-# Idee hinter Containern (2)
-
-* Foirtgeschrittenes Modell 
-    *  Dienste, Server-Komponenten und Datenbanken auf unterschiedlichen Servern (auch virtuellen Maschinen), z.B. 
-        * VM für Web Server
-        * VM für Datenbank 
-        * VM für Monitoring 
-    * Vorteil: Unabhägig
-    * Nachteil: Wartung vieler (virtueller) Maschinen, i.d.R. durch Betriebsteam
+* Grundlegende Konzepte hinter Kanban **kennen lernen**
+* Unterschiede (Vor- und Nachteile) gegenüber anderen agilen Ansätzen **verstehen**
+* **Verstehen** wann Kanban vorzugsweise eingesetzt werden kann 
 
 ---
 
-# Idee hinter Containern (3) 
+# Inhalt 
 
-* Container Modell
-    * Dienste, Server-Komponenten und Datenbanken werden in kleinen, isolierten Containern betrieben, z.B.
-        * Container für Front-End 
-        * Je ein Container pro Service
-        * Je ein Container pro Datenbank 
-    * Vorteile
-        * Leichtgewichtig
-        * Unabhängig 
-        * Konfigurierbar 
-    * Nachteile
-        * Stichwort Kubernetes 
-
+* Kanban Einführung 
+* Kanban Board 
+* Work in Progress 
+* Praxis Tipps
+* Praxisübung
 
 ---
 
-# Beispiel einer Software in Containern
+# Kanban Ursprung
 
-![center w:900](../img/devops.04.example_arch.de.png)
+* Jap. kan 看 (sichtbar) und ban  板 (Karte o.d Brett)
+* Konzepte entstammen dem Toyota Production System (TSP)
+* Konkret: Just-in-Time Scheduling System
+    * Nur »machen« was benötigt wird 
+    * Nur »machen« wenn es benötigt wird 
+    * Nur »machen« wieviel benötigt wird
+
+Kanban System wurde sowohl für die Produktion als die Software Entwicklung adaptiert. 
+
+---
+
+# Toyota Kanban
+
+> The kanban, a tool that describes **which and how many parts are used where and when, made just-in-time production possible**. The new kanban management system was adopted at all plants in 1963. By producing parts in accordance with the instructions on the kanban, **parts are delivered among the different plants only in the volumes needed, and inventories within each process can be eliminated**. As kanban came into widespread use, problems such as standardization of work and transport management were resolved one after another and production lines operated smoothly.[^1]
+
+---
+
+# Drei Prinzipien
+
+* Visualize
+* Limit Work in Progress
+* Manage Flow
+
+---
+
+# Das Kanban Board
+
+---
+
+# Visualisieren
+
+* Information Fridge
+    * Muss immer wieder geöffnet werden, um nachzuschauen ob „etwas Neues drin ist“
+    * Klassische Ticket-Systeme, digitale Boards etc.
+
+* Information Radiator
+    * Große sichtbare Displays
+    * Für das eigene Team und alle Interessierten
+    * Aktualisierungen möglichst einfach halten
+    * So groß wie möglich!!! 
+    * »Use it or lose it!« 
+
+---
+
+# Kanban Board Beispiel
+
+![w:900 center](../img/devops.04.board.jpg)[1]
+
+---
+
+# Kanban Board - Tips
+
+* Große Boards verwenden (s. Information Radiator)
+* Digitale und physische Boards haben beide Vor- und Nachteile 
+* Bei ungeübten Teams möglichst physische Boards nutzen
+* Regelmäßige Stand-Ups (Daily Stand-Up)
+* Den Workflow anpassen, das Board reflektiert den aktuellen Workflow im Team
+* Der Workflow kommt nicht vom Management, sondern vom Team 
+* Nicht zu viele Gedanken machen, Änderungen willkommen heißen 
+
+---
+
+# Kanban Board - Beispielaufbau
+
+![w:900 center](../img/devops.04.board_aufbau.png)
 
 --- 
 
-# Automatisierung mit Containern
+# Enter & Exit Critera
 
-* Mit Container-Technologie lässt sich sehr viel (alles) automatisieren
-* Stichwort: GitLab CI/CI (später mehr dazu) 
-* Stichwort: Infrastructure as Code (IaS)
-* Werkzeuge: Ansible, Salt, Puppet, Vagrant, GitLab CI/CD, GitHub Actions... 
-
----
-
-# Container können...
-
-* Unabhängig voneinander gewartet und aktualisiert werden 
-* Können in unterschiedlichen Versionen betrieben werden
-* Beeinflussen sich nicht gegenseitig
-
----
-
-# Container 101
-
-* Container enthalten eine Software und alle Abhängigkeiten
-* Gestartet wird ein Container aus einem Abbild (engl. image)
-* Container verhalten sich auf allen Maschinen gleich (Entwickler-Maschine, Server, Cloud-Anbieter,...)
-* Für die Software sieht der Container aus wie eine eigene Maschine
-* Die Software weiß nicht, dass sie in einem Container steckt
-* Wird ein Container gelöscht, werden keine Konfigurationsreste auf dem Host / dem Betriebssystem hinterlassen
-
-Daumenregel: Ein Dienst pro Container 
-
----
-
-#  Beispiel Microservices
-
-![w:1000 center](../img/devops.04.microservice_example_arch.de.png)
-
-Alles auf einer Maschine oder jeder Dienst in einem eigenen Container?
-
----
-
-# Beispiel Container-Umgebung
-
-![w:900 center](../img/devops.04.image_vs_container.png)
-
----
-
-#  Container und Netzwerke
-
-![w:900 center](../img/devops.04.network.de.png)
-
-Container können über eigene Netzwerke miteinander kommunizieren
-
----
-
-#  Nutzung von Standard-Ports in Containern
-
-![w:900 center](../img/devops.04.ports.de.png)
-
----
-
-#  Reverse Proxy 
-
-![w:900 center](../img/devops.04.reverseproxy.de.png)
-
-Löst dabei  so manche Probleme einzelner Maschinen...
-
----
-
-# Docker Compose 
-
-* Docker installieren (Linux, Windows, macOS)
-    * Variante 1: Fertiges Image laden und Container starten
-
-```bash
-version: '3'
-services:  my_db:
-    image: postgres:9-alpine
-    environment:
-      POSTGRES_DB: mydb
-      POSTGRES_PASSWORD: topsecret
-      POSTGRES_USER: user1
-volumes:
-  - db-data:/var/lib/postgresql/data
-restart: always
-networks:
-  - my_network
-```
-
----
-
-# Docker Compose 
-
-* Eine Konfigurationsdatei: `docker-compose.yml`
-* Container werden mit `docker-compose up` gestartet 
-* Container werden mit `docker-compose down` gestopppt
+![center w:950](../img/devops.04.enter_exit_criteria.png)
 
 --- 
 
-# Vorsicht bei fertigen Images 
+# Priorisierung
 
-![w:480 bg right](../img/devops.04.dockerhub.png)
+* Anders als in Scrum: 
+    * Priorisierung kann fortwährend erfolgen 
+Täglich, u.U. auch wöchentlich oder zwei-wöchentlich
 
-* Am Beispiel des *postgres*-Images
-* Was steckt in dem Image?
-* Wirklich nur die Datenbank? 
-* Vielleicht ein BitCoin Miner?
-* Vielleicht ein SpamBot?
-* Vielleicht ein Skript das alles DB-Einträge an jemanden übermittelt?
-…
-⚠Geschichten aus dem wahren Leben...
-
---- 
-
-Wie bekommt man Software in einen Container?
-
-* Docker installieren (Linux, Windows, macOS)
-    * Variante 2: Eigenes Image »bauen«, Container starten 
-
-```bash 
-FROM alpine
-RUN apk --no-cache add inotify-tools jq openssl util-linux bash
-COPY dumpcerts.sh /dumpcerts.sh
-RUN chmod +x /dumpcerts.sh
-COPY entrypoint.sh /entrypoint.sh
-ENTRYPOINT [ "/entrypoint.sh" ]
-```
-* In einem File, z.B. `Dockerfile`
-
-👨‍🏫 Praxisbeispiele
+* Reihenfolge der Tickets am Board spiegelt die Priorität wieder 
+    * Es wird immer das am höchsten priorisierte Ticket gezogen
+    * No-Go: Ticket ziehen, das einem am meisten Spaß macht 
 
 ---
 
-Referenzen 
+# Work in Progress
 
-[1] c't wissen Docker DOCKER – Komplexe Software einfach einrichten, Heise Medien GmbH, 2019
+---
 
-[2] Offizielle Docker Dokumentation: https://docs.docker.com/ 
+# Work in Progress
+
+* Beinhaltet alle begonnen aber noch nicht abgeschlossenen Aufgaben
+    * Auch alle Aufgaben, an denen gerade nicht gearbeitet wird
+    * Auch alle Aufgaben, für die gerade auf Zuarbeit geartet wird 
+* Abk.: WiP 
+* WiP-Limit
+    * Anzahl an gerade in Bearbeitung befindlicher Aufgaben limitieren
+    * Anzahl der Tickets 
+    * Typischerweise pro Spalte (in Bearbeitung, Test, Abnahme etc.) 
+
+---
+
+# Little's Law
+
+* Ursprung: John D.C. Little 
+    * In den 1950 einfach angenommen
+    * Erst Ende der 1960er bewiesen 
+* Bedeutung: Je mehr gleichzeitig bearbeitet wird, desto länger dauert die Fertigstellung aller »Work Items«
+
+![center](../img/devops.04.littleslaw.png)
+
+---
+
+# Auswirkung von Parllelität
+![center](../img/devops.04.parallelitaet.png)
+
+---
+
+# WiP Limit
+![center](../img/devops.04.sequentiel.png)
+
+---
+
+#ä WiP Limit Wisdoms
+
+* Es gibt keine »goldene Regel«
+* Beobachten und anpassen
+* Guter Ansatz: »Stop starting, start finishing « 
+* Beispiel 1: Um Pairing zu forcieren kann ein WiP-Limit von $Teamgröße -1$ gewählt werden 
+* Beispiel 2: Existieren z.B. externe Abhängigkeiten (=Wartezeiten) kann ein WiP Limit von $Teamgröße \cdot 2$ gewählt werden um Wartezeiten (engl. idle time) zu vermeiden
+* Beispiel 3: … 
+
+---
+
+# Praxis Tipps
+
+---
+
+# Praxis Tipps 
+
+* Durchsatz erhöhen
+* Verschwendung (jap. muda 無駄) z.B. durch Wartezeiten oder Blocker vermeiden 
+* Probleme schnell lösen 
+* Kanban ermöglicht häufig Priorisierung (signifikanter Unterschied zu Scrum) 
+* Geeignet für kleine und bekannte Arbeitseinheiten (z.B. im Ops Umfeld) 
+* Schlechter für Entwicklung, da Aufgaben geschätzt werden müssen 
+WiP-Limits einhalten
+
+---
+
+# Referenzen
+
+[^1]: https://www.toyota-global.com/company/history_of_toyota/75years/text/entering_the_automotive_business/chapter1/section4/item4.html
+
+---
+
+# Bildquellen
+
+[1] Rakuten Inc.,  https://commons.wikimedia.org/wiki/File:Lean_Kanban.jpg, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
