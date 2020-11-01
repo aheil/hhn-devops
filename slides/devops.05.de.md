@@ -17,7 +17,7 @@ Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
-v1.0.0
+v1.0.1
 
 
 ---
@@ -33,12 +33,12 @@ v1.0.0
 
 # Idee hinter Containern (2)
 
-* Foirtgeschrittenes Modell 
+* Fortgeschrittenes Modell 
     *  Dienste, Server-Komponenten und Datenbanken auf unterschiedlichen Servern (auch virtuellen Maschinen), z.B. 
         * VM für Web Server
         * VM für Datenbank 
         * VM für Monitoring 
-    * Vorteil: Unabhägig
+    * Vorteil: Unabhängig
     * Nachteil: Wartung vieler (virtueller) Maschinen, i.d.R. durch Betriebsteam
 
 ---
