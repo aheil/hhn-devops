@@ -14,3 +14,4 @@ Premises:
 Tasks:
 * Question 1: What would be the optimum WiP-Limit per station to achieve a maximum throughput in your pipeline?
 * Question 2: What cycle time will result from your WiP limit chosen?
+* Question 3: How would you interpret these results. Briefly explain your observation.
