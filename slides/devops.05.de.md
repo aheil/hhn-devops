@@ -17,7 +17,7 @@ Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
-v1.0.1
+v1.0.2
 
 ---
 
@@ -26,7 +26,7 @@ v1.0.1
 * Intuitives Vorgehen
     * Alle Dienste, Server-Komponenten und Datenbanken auf einem Server/Rechner installieren 
     * Vorteil: Einfach Installation, einfache Kommunikation unter den Diensten
-    * Nachteil: Über die Zweit immer schwerer warbar 
+    * Nachteil: Über die Zeit immer schwerer wartbar 
 
 ---
 
@@ -68,7 +68,7 @@ v1.0.1
 # Automatisierung mit Containern
 
 * Mit Container-Technologie lässt sich sehr viel (alles) automatisieren
-* Stichwort: GitLab CI/CI (später mehr dazu) 
+* Stichwort: GitLab CI/CD (später mehr dazu) 
 * Stichwort: Infrastructure as Code (IaS)
 * Werkzeuge: Ansible, Salt, Puppet, Vagrant, GitLab CI/CD, GitHub Actions... 
 
@@ -172,7 +172,7 @@ networks:
 * Vielleicht ein SpamBot?
 * Vielleicht ein Skript das alles DB-Einträge an jemanden übermittelt?
 …
-⚠Geschichten aus dem wahren Leben...
+⚠ Geschichten aus dem wahren Leben...
 
 --- 
 
