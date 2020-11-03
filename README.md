@@ -2,7 +2,7 @@
 
 # DevOps
 
-This course is being taught as a part of the Bachelor Software Engineering at Heilbronn University fpr Applied Sciences in Germany. 
+This course is being taught as a part of the Bachelor Software Engineering at Heilbronn University fpr Applied Sciences in Germany.
 
 [Go to the official Website ⏭](https://www.hs-heilbronn.de/devops)
 
@@ -12,13 +12,17 @@ This course is being taught as a part of the Bachelor Software Engineering at He
 * 🇩🇪 [Kanban](slides/devops.02.de.pdf) 
 * 🇩🇪 [Automatisierung](slides/devops.03.de.pdf) 
 * 🇩🇪 [Kanban](slides/devops.04.de.pdf) 
-* 🇩🇪 [Einführing in Container unbd Docker](slides/devops.05.de.pdf) 
+* 🇩🇪 [Einführing in Container und Docker](slides/devops.05.de.pdf) 
 
 ## Lab and Home Assignments 
 
 ## Lab 1: Processes
 
-* [WiP Limit and Cycle Time](labs/01_processes/wiplimit.md)
+* 🏋️‍♀️[WiP Limit and Cycle Time](labs/01_processes/wiplimit.md)
+
+## Lab 2: Container
+
+* 🏋️‍♀️[Docker](labs/02_container/docker.md)
 
 ## License
 
