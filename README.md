@@ -13,6 +13,8 @@ This course is being taught as a part of the Bachelor Software Engineering at He
 * 🇩🇪 [Automatisierung](slides/devops.03.de.pdf) 
 * 🇩🇪 [Kanban](slides/devops.04.de.pdf) 
 * 🇩🇪 [Einführung in Container und Docker](slides/devops.05.de.pdf) 
+* 🇩🇪 [Automatisierung und Ansible](slides/devops.06.de.pdf) 
+
 
 ## Lab and Home Assignments 
 
