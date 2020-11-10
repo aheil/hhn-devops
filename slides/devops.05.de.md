@@ -17,7 +17,7 @@ Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
-v1.0.2
+v1.1.0
 
 ---
 
@@ -38,7 +38,21 @@ v1.0.2
         * VM für Datenbank 
         * VM für Monitoring 
     * Vorteil: Unabhängig
-    * Nachteil: Wartung vieler (virtueller) Maschinen, i.d.R. durch Betriebsteam
+    * Nachteile
+        * Wartung vieler (virtueller) Maschinen, i.d.R. durch Betriebsteam
+        * Ressourcenverbrauch 
+
+---
+
+# Virtuelle Maschinen (VMs) auf einem Rechner
+
+![center h:480](../img/devops.05.vms.png)
+
+---
+
+# Container auf einem Rechner
+
+![center h:480](../img/devops.05.containers.png)
 
 ---
 
