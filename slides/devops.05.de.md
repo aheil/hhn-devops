@@ -38,7 +38,21 @@ v1.0.2
         * VM für Datenbank 
         * VM für Monitoring 
     * Vorteil: Unabhängig
-    * Nachteil: Wartung vieler (virtueller) Maschinen, i.d.R. durch Betriebsteam
+    * Nachteile
+        * Wartung vieler (virtueller) Maschinen, i.d.R. durch Betriebsteam
+        * Ressourcenverbrauch 
+
+---
+
+# Virtuelle Maschinen (VMs) auf einem Rechner
+
+![center h:480](../img/devops.05.vms.png)
+
+---
+
+# Container auf einem Rechner
+
+![center h:480](../img/devops.05.containers.png)
 
 ---
 

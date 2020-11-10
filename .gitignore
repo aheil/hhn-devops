@@ -1,5 +1,3 @@
 hhn-devops.code-workspace
-*.pptx
 slides/*.html
-img/*.pptx
 .vscode/
