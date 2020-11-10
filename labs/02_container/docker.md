@@ -1,4 +1,4 @@
-Exercise: Docker
+# Exercise: Docker
 
 In this exercise you create an image which could potentially be used as a runner in a CI/CD process.
 
