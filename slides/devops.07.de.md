@@ -17,7 +17,7 @@ Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
-v1.0.0
+v1.0.1
 
 ---
 
@@ -48,7 +48,7 @@ v1.0.0
 * Es werden sog. Basis Images 
     * Betriebssystem muss nicht installiert werden 
 * Einstellungen können konfiguriert werden
-* Ausführung von Automatisierungs-Tools wie Chef, Puppet oder Ansible 
+* Ausführung von Automatisierungs-Tools wie Chef, Puppet oder Ansible
 
 ---
 
@@ -81,7 +81,7 @@ v1.0.0
 * `init` Initialisiert das aktuelle Verzeichnis für eine Box 
 * `halt` Schaltet die virtuelle Maschinen(n) ab 
 * `provision` Führt den Provisioner gegen die VMs aus 
-* `relead` Neustart nach Änderungen
+* `reload` Neustart nach Änderungen
 * `ssh` Shell Zugriff auf die Maschine 
 * `up` Erstellt und Startet die VM gemäß dem Vagrantfile 
 
@@ -119,8 +119,8 @@ end
 # Port Forwarding 
 
 Gleiches Verhalten auf allen Maschinen 
-    * Standardports auf den virtuellen Maschinen nutzbar
-    * Pors vom Host-System werden weitergeleitet 
+* Standard-Ports auf den virtuellen Maschinen nutzbar
+* Ports vom Host-System werden weitergeleitet 
 
 ```bash
 Vagrant.configure("2") do |config|
@@ -151,7 +151,7 @@ end
 # Vagrant und Ansible
 
 Ansible als Provisioner[^2] 
-    * Vorteil Playbook kann automatisch gegen Box ausgeführt werden
+* Vorteil Playbook kann automatisch gegen Box ausgeführt werden
 
 ```bash
 Vagrant.require_version ">= 1.8.0"
@@ -200,7 +200,7 @@ Am Beispiel VirtualBox[^3]
 
 * Docker: Bauen, ausliefern und betreiben von verteilten Anwendungen
     * Container laufen im bzw. nutzen das Host-Betriebssystem
-* Vagrant: Leichtgewichtiges Tool u virtuelle Umgebungen zu konfigurieren und zu erstellen
+* Vagrant: Leichtgewichtiges Tool um virtuelle Umgebungen zu konfigurieren und zu erstellen
     * Virtuelle Maschinen bringen Ihr Betriebssystem
     * Docker kann als Provider für Vagrant genutzt werden
 
