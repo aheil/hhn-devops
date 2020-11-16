@@ -2,7 +2,7 @@
 
 In this exercise you create an image which could potentially be used as a runner in a CI/CD process.
 
-Tasks: 
+## Tasks
 1. Create a `Dockerfile` file to be used to build your Docker  image.
 2. Create a `docker.compose.yml` file to build your image and t start your container. 
 3. Your image has to meet the following requirements:
@@ -15,6 +15,10 @@ Tasks:
     7. Both, the parameters for the source file as well as the repository URL can be changed in the 'docker-compose.yml'. The change will take effect after the next start of the container without the need or rebuilding the image.
     8. All errors occurring can be viewed in the container`s log. 
     9. If coding conventions specified by the *Google Java Style Guide* are not met, the output can be viewed in the container log as well.
+
+## Additional Resources
+To learn about how to pass arguments to images and containers, read the following article: https://vsupalov.com/docker-arg-env-variable-guide/.
+ 
 
 ---
 v1.0.0
