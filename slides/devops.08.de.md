@@ -25,10 +25,10 @@ v1.0.0
 
 # Kurze Wiederholung 
 
-* Bereits kennen gelernt: Docker und Docker compose 
+* Bereits kennen gelernt: Docker und Docker Compose 
 * Mittles Compose lassen sich mehrere Services (Container) verwalten und gemeinsam starten 
-* Was wäre wenn Sie nun in einem **sehr großen* IT-Untenrehmen arbeiten würden... Microsoft, Amazon, Google? 
-* 1.000 oder 10.000 von Containern mittels 1.000 den Docker-Compose-Dateien... 
+* Was wäre wenn Sie nun in einem *sehr großen* IT-Unternehmen arbeiten würden... Microsoft, Amazon, Google? 
+* 1.000 oder 10.000 von Containern mittels 1.000d Docker-Compose-Dateien... 
 * 🤯
 
 ---
@@ -38,7 +38,7 @@ v1.0.0
 * Google hatte das zuvor angesprochene Problem 
 * Ca. 10 Jahre lang wurden Systeme (Borg und Omega) entwickelt und intern verwendet um die Server zu verwalten 
 * 2014 wurde Kubernetes von Google als Open Source veröffentlicht
-* Übergabe von Kubernetes 2015 an die neu gegründete Claud Native Computing Foundation und die Linux Foundation.
+* Übergabe von Kubernetes 2015 an die neu gegründete *Cloud Native Computing Foundation* und die *Linux Foundation*.
 
 ---
 
@@ -57,18 +57,18 @@ v1.0.0
 # Was ist nun Kubernetes 
 
 * Vereinfacht ausgedrückt: Ein Betriebssystem für Container
-    * Einfache Bereitstellung von Dienstend bzw. Anwendungen in Containers  
+    * Einfache Bereitstellung von Dienstenund  Anwendungen in Containers  
     * Bestmöglich Nutzung (engl. utilization) von Hardware
     * Verwaltung von vielen (tausenden) Nodes
 
 ---
 # Wording 
 
-* Node: Physische oder virtuelle Maschinen in einem Cluster, auf dem Node ist die Laufzeit-Umgebung für Container installiert (Docker oder Rocket/rkt )
-* Container: Menge von isolierten Prozessen, die sich ein Kernel teilen[^2] 
-* Pod: Enthält einen oder mehrere Container 
+* **Node**: Physische oder virtuelle Maschinen in einem Cluster, auf dem Node ist die Laufzeit-Umgebung für Container installiert (Docker oder Rocket/rkt )
+* **Container**: Menge von isolierten Prozessen, die sich ein Kernel teilen[^2] 
+* **Pod**: Enthält einen oder mehrere Container 
 
-Ein Pod ist die kleineste Einheit zur Verwaltung von Containern.
+Ein Pod ist die kleineste Einheit zur Verwaltung von Containern
 
 ---
 
@@ -76,7 +76,7 @@ Ein Pod ist die kleineste Einheit zur Verwaltung von Containern.
 
 ![](../img/devops.08.kubernetes_overview.png)
 
----
+--- 
 
 # Grundlegende Funktionsweise des Masters (1)
 
@@ -105,7 +105,7 @@ Ein Pod ist die kleineste Einheit zur Verwaltung von Containern.
     * Loadbalancer und Port Forwarding zu den Containern 
 * Kublets
     * Verantwortlich für den Status des Nodes 
-    * Wird vom Controller Manager gesteuert, stoppt und startet Container
+    * Wird vom Controller Manager gesteuert; stoppt und startet Container
     * Rückmeldung über Status an den Master
     * Ist ein Kublet nicht mehr erreichbar, werden Pods auf anderem Node gestartet 
 * Container-Runtime

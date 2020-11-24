@@ -17,7 +17,9 @@ Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
-v1.0.1
+<!--version-->
+v1.0.2
+<!--/version-->
 
 ---
 
@@ -28,7 +30,7 @@ v1.0.1
 # Was ist Vagrant?
 
 * Tool zum automatisierten Aufsetzen von virtuellen Entwicklungsumgebungen 
-* Die Idee: Entwicklungsumgebung soll deinem produktiven System so ähnliche wie möglich sein
+* Die Idee: Entwicklungsumgebung soll dem produktiven System so ähnliche wie möglich sein
 * Gedankenspiel: Wie groß wäre der Unterschied zwischen Ihrer Entwicklungsumgebung und dem Zielsystem?
 * Vagrant wurde in Ruby von Mitchel Hashimoto entwickelt 
 
@@ -45,7 +47,7 @@ v1.0.1
 
 # Vorteile 
 
-* Es werden sog. Basis Images 
+* Es werden sog. »Basis Images« genutzt
     * Betriebssystem muss nicht installiert werden 
 * Einstellungen können konfiguriert werden
 * Ausführung von Automatisierungs-Tools wie Chef, Puppet oder Ansible
@@ -55,6 +57,7 @@ v1.0.1
 # Nochmal zur Erinnerung 
 
 * Wir möchten vermeidbare manuelle Tätigkeiten so gut wie möglich automatisieren 
+* Wozu?
     * Zeitgewinn 
     * Vermeidung von Fehlern 
     * Reproduzierbarkeit
@@ -64,7 +67,7 @@ v1.0.1
 # Begriffe 
 
 * Provider
-    * Virtualisierungstechnologie: VirtualBox, Hyper-V, VMWare, Docker, AWS...)
+    * Virtualisierungstechnologien: VirtualBox, Hyper-V, VMWare, Docker, AWS...)
 * Provisionier:
     * Configuration Management Tool (Chef, Puppet, Ansible)
 * Box / Vagrantbox 
@@ -97,7 +100,7 @@ v1.0.1
 
 # Multi-Server Setup
 
-Mehrere identische Maschinen möglich 
+Mehrere identische Maschinen möglich:
 
 ```bash
 Vagrant.configure("2") do |config|
@@ -150,7 +153,7 @@ end
 
 # Vagrant und Ansible
 
-Ansible als Provisioner[^2] 
+Ansible als Provisioner[^2]: 
 * Vorteil Playbook kann automatisch gegen Box ausgeführt werden
 
 ```bash
@@ -201,7 +204,7 @@ Am Beispiel VirtualBox[^3]
 * Docker: Bauen, ausliefern und betreiben von verteilten Anwendungen
     * Container laufen im bzw. nutzen das Host-Betriebssystem
 * Vagrant: Leichtgewichtiges Tool um virtuelle Umgebungen zu konfigurieren und zu erstellen
-    * Virtuelle Maschinen bringen Ihr Betriebssystem
+    * Virtuelle Maschinen bringen Ihr Betriebssystem mit
     * Docker kann als Provider für Vagrant genutzt werden
 
 
@@ -210,7 +213,7 @@ Am Beispiel VirtualBox[^3]
 # Voraussetzungen 
 
 * Provider
-    * Z.B. Virtual Box 
+    * Z.B. VirtualBox 
     * Vagrant installieren 
     * Vagrant Box download 
 
