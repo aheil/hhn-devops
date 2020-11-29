@@ -26,7 +26,11 @@ This course is being taught as a part of the Bachelor Software Engineering at He
 
 ## Lab 2: Container
 
+### Labs 
+* 👨‍🔬 [Docker Basics](labs/02_container/docker_basics.md) - This lab covers basics of Containers and Docker. 
 * 👨‍🔬 [Docker Layers](labs/02_container/layer.md) - This lab covers basics of Docker images, layers and how to reduce image sizes. 
+
+### Exercises 
 * 🏋️‍♀️[Docker Image](labs/02_container/docker.md) - This exercise lets you create a basic CI/CD runner based on a Docker container.  
 
 ## Lab 8: Kubernetes
