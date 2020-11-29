@@ -14,6 +14,8 @@ This course is being taught as a part of the Bachelor Software Engineering at He
 * 🇩🇪 [Kanban](slides/devops.04.de.pdf) 
 * 🇩🇪 [Einführung in Container und Docker](slides/devops.05.de.pdf) 
 * 🇩🇪 [Automatisierung und Ansible](slides/devops.06.de.pdf) 
+* 🇩🇪 [Virtualisierung und Vagrant](slides/devops.07.de.pdf) 
+* 🇩🇪 [Management und Kubernetes](slides/devops.08.de.pdf) 
 
 
 ## Lab and Home Assignments 
@@ -29,6 +31,10 @@ This course is being taught as a part of the Bachelor Software Engineering at He
 
 ## Lab 8: Kubernetes
 * 👨‍🔬 [Minicube](labs/08_kubernetes/minikube.md) - This lab covers some basics of Minicube in Windows.
+
+## Lab 9: Deployments
+
+* 🏋️‍♀️[Deployment](labs/09_deployment/simple_app.md) - This lab combines various techniques and skills accquired during the previous lessons. 
 
 ## License
 

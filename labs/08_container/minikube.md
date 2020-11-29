@@ -1,7 +1,7 @@
 # Lab 08 - Kubernetes 
 ## Task 1 - Minikube 
 
-### Mindestvoraussetzung für diese Übung 
+### Minimal requirement for this exercise 
 * 2 CPUs 
 * 2GB free memory 
 * ~20GB free disk space
