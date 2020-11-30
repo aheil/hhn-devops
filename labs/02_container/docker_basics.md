@@ -1,10 +1,14 @@
 # Lab: Docker Basics
 
-Task 1: Prepare 
+## Task 1: Prepare 
 1. Read [Orientan and setup](https://docs.docker.com/get-started/) from *docker docs*.  
 2. Watch the [How to get started with Docker](https://youtu.be/fqMOX6JJhGo) video.
 
-Task 2: Install Docker 
+## Task 2: Install Docker 
 1. Download and install Docker for your corresponding platform from [Get Docker](https://docs.docker.com/get-docker/) on *docker docs*.
 2. Verify the installation by running `docker version`:  
     ![](../../img/lab.wt_docker_version.gif)
+
+## Task 3: Create and start a "Hello World" image 
+1. Create a new file called *Dockerfile* 
+2. Create a new file called *entrypoint.&#8203;sh* 
