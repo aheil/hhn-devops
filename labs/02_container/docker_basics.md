@@ -8,4 +8,4 @@ Task 2: Install Docker
 1. Download and install Docker for your corresponding platform from [Get Docker](https://docs.docker.com/get-docker/) on *docker docs*  
 2. Verify the installation by running `docker version`:
 
-    ![](../../img/lab.wt_docker_version.png)
+    ![](../../img/lab.wt_docker_version.gif)
