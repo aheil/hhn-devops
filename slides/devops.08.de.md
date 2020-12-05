@@ -18,7 +18,7 @@ Prof. Dr.-Ing. Andreas Heil
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
 <!--version-->
-v1.0.0
+v1.0.1
 <!--/version-->
 
 ---
@@ -48,7 +48,7 @@ v1.0.0
 * Kubernetes wird oft als K8s abgekürzt
 * Minikube erlaubt es einen »lokalen Single-Node Kubernetes Cluster« zu installieren
     * U.a. für Windows verfügbar
-* MikcroK8s ermöglicht es einen lokalen Kubernetes Cluster zu installieren
+* MikroK8s ermöglicht es einen lokalen Kubernetes Cluster zu installieren
     * Nur unter Linux verfügbar
 * Vergleich zwischen Minikube und MicroK8s[^1]
 
@@ -57,7 +57,7 @@ v1.0.0
 # Was ist nun Kubernetes 
 
 * Vereinfacht ausgedrückt: Ein Betriebssystem für Container
-    * Einfache Bereitstellung von Dienstenund  Anwendungen in Containers  
+    * Einfache Bereitstellung von Diensten und  Anwendungen in Containers  
     * Bestmöglich Nutzung (engl. utilization) von Hardware
     * Verwaltung von vielen (tausenden) Nodes
 
@@ -72,7 +72,7 @@ Ein Pod ist die kleineste Einheit zur Verwaltung von Containern
 
 ---
 
-# Kuberentes Übersicht
+# Kubernetes Übersicht
 
 ![](../img/devops.08.kubernetes_overview.png)
 
@@ -105,6 +105,7 @@ Ein Pod ist die kleineste Einheit zur Verwaltung von Containern
     * Loadbalancer und Port Forwarding zu den Containern 
 * Kublets
     * Verantwortlich für den Status des Nodes 
+    * Wird vom Controller Manager gesteuert; stoppt und startet Container
     * Wird vom Controller Manager gesteuert; stoppt und startet Container
     * Rückmeldung über Status an den Master
     * Ist ein Kublet nicht mehr erreichbar, werden Pods auf anderem Node gestartet 
