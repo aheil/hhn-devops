@@ -41,9 +41,9 @@ This course is being taught as a part of the Bachelor Software Engineering at He
 
 * 🏋️‍♀️[Deployment](labs/09_deployment/simple_app.md) - This exercise combines various techniques and skills acquired during the previous lessons. 
 
-## Lab 9: Deployments
+## Lab 10: Value Steam Maps and Lean Approaches
 
-* 🏋️‍♀️[Deployment](labs/10_vsm/cycle_time.md) - This exercise allows you to learn how to work with cycle times, the total value added time as well as lead time. 
+* 🏋️‍♀️[Value Stream Map](labs/10_vsm/cycle_time.md) - This exercise allows you to learn how to work with cycle times, the total value added time as well as lead time. 
 
 
 ## License
