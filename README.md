@@ -16,7 +16,8 @@ This course is being taught as a part of the Bachelor Software Engineering at He
 * 🇩🇪 [Automatisierung und Ansible](slides/devops.06.de.pdf) 
 * 🇩🇪 [Virtualisierung und Vagrant](slides/devops.07.de.pdf) 
 * 🇩🇪 [Management und Kubernetes](slides/devops.08.de.pdf) 
-
+* 🇩🇪 [Terraform](slides/devops.09.de.pdf) 
+* 🇩🇪 [Value Stream Mapping](slides/devops.10.de.pdf) 
 
 ## Lab and Home Assignments 
 
@@ -38,7 +39,12 @@ This course is being taught as a part of the Bachelor Software Engineering at He
 
 ## Lab 9: Deployments
 
-* 🏋️‍♀️[Deployment](labs/09_deployment/simple_app.md) - This lab combines various techniques and skills accquired during the previous lessons. 
+* 🏋️‍♀️[Deployment](labs/09_deployment/simple_app.md) - This exercise combines various techniques and skills acquired during the previous lessons. 
+
+## Lab 9: Deployments
+
+* 🏋️‍♀️[Deployment](labs/10_vsm/cycle_time.md) - This exercise allows you to learn how to work with cycle times, the total value added time as well as lead time. 
+
 
 ## License
 
