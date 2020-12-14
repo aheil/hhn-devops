@@ -18,14 +18,14 @@ Prof. Dr.-Ing. Andreas Heil
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
 <!--version-->
-v1.0.0
+v1.0.1
 <!--/version-->
 
 ---
 
 # Lernziele
 
-Eine Methode kennen lernen, um in komplexen Produktionsabläufen lange Laufzeiten zu erkennen und zu reduzieren.  
+Eine Methode kennen lernen, um in komplexen Produktionsabläufen lange Laufzeiten zu erkennenr und zu reduzieren.  
 
 ...
 
@@ -35,7 +35,7 @@ Eine Methode kennen lernen, um in komplexen Produktionsabläufen lange Laufzeite
 
 Angenommen Sie arbeiten in einem agilen Team, Entwicklung und Betrieb gemeinsam in einem DevOps Team. Ihr Team ist für die Weiterentwicklung und den Betrieb eines zentralen Bestandteiles der Unternehmensinfrastruktur verantwortlich. Ihr Team arbeitet seit Monaten »am Limit«. 
 
-Eines Morgens kommen Sie ins Büro und werden kurzfristig zu einem Eskalationstermin gerufen. Die internen Kunden beschweren sich, dass Ihre Entwicklung so »teuer sind«. Eine Anforderung koste über 20- bis 30-Tausend Euro und Sie sollen Ihren Prozess optimieren.  
+Eines Morgens kommen Sie ins Büro und werden kurzfristig zu einem Eskalationstermin gerufen. Die internen Kunden beschweren sich, dass Ihre Entwicklung so »teuer sind«. Eine Anforderung kosten über 20- bis 30-Tausend Euro und Sie sollen Ihren Prozess optimieren.  
 
 **Die Zukunft Ihres gesamten Teams steht auf dem Spiel.**
 
@@ -56,7 +56,7 @@ Eines Morgens kommen Sie ins Büro und werden kurzfristig zu einem Eskalationste
 
 ---
 
-# Value Steam Maps (VSM)
+# Value Stream Maps (VSM)
 
 * Aus der industriellen Fertigung 
 * Beschreiben den Materialfluss vom Lieferanten bis zum Kunden durch die eigene Organisation
@@ -66,7 +66,7 @@ Eines Morgens kommen Sie ins Büro und werden kurzfristig zu einem Eskalationste
 
 # Praxistipps 
 
-* VSMs am beten zunächst auf Papier zeichnen 
+* VSMs am besten zunächst auf Papier zeichnen 
 * Ein möglichst großes Papier verwenden
 * Möglichst viele Beteiligte entlang der Wertschöpfungskette involvieren 
 * VSMs sind keine Einzeltätigkeiten oder Aufgaben, die an einen Consultant »outgesourced« werden sollten
