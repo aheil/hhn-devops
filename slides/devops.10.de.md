@@ -12,20 +12,20 @@ img[alt~="center"] {
 }
 </style>
 # DevOps 
-## Valie Stream Maps 
+## Value Stream Maps 
 Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
 <!--version-->
-v1.0.1
+v1.0.2
 <!--/version-->
 
 ---
 
 # Lernziele
 
-Eine Methode kennen lernen, um in komplexen Produktionsabläufen lange Laufzeiten zu erkennenr und zu reduzieren.  
+Eine Methode **kennen lernen**, um in komplexen Produktionsabläufen lange Laufzeiten zu erkennen und zu reduzieren
 
 ...
 
@@ -78,7 +78,7 @@ Eines Morgens kommen Sie ins Büro und werden kurzfristig zu einem Eskalationste
 * Wertstromanalyse 
     * Wahl des Produktes/Produktfamilie  
     * Erstellung der Ist-Map
-* Werstromdesign
+* Wertstromdesign
     * Erstellung der Soll-Map
     * Erstellung des Umsetzungsplans
 
@@ -88,7 +88,7 @@ Fokus heute: Ist-Map
 
 # Prozessübergreifende Zusammenhänge
 
-* Transparente Darstellung von Informationsfluß (und Materialfluß) und Darstellung von Zusammenhängen
+* Transparente Darstellung von Informationsfluss (und Materialfluss) und Darstellung von Zusammenhängen
 * Betrachtung des Gesamtprozesses anstelle von Einzelpersonen
 * Verbesserungspotentiale werden leicht erkennbar
 * Auswirkungen geplanter Maßnahmen in Bezug auf den Prozess werden besser abschätzbar
