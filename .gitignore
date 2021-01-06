@@ -2,3 +2,4 @@ hhn-devops.code-workspace
 slides/*.html
 img/~$*.pptx
 .vscode/
+tmp/
