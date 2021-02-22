@@ -2,10 +2,13 @@
 
 # DevOps
 
-This course is being taught as a part of the Bachelor Software Engineering at Heilbronn University for Applied Sciences in Germany.
+Dieser Kurs ist Teil des Bachelor Studiengangs Software Engineering an der Hochschule Heilbronn.
 
-[Go to the official Website ⏭](https://www.hs-heilbronn.de/devops)
+Dies ist das Repository der Kursinformationen. Die Seite mit den Kursinformationen ist auf den [GitHub Pages dieses Repositories](https://aheil.github.io/hhn-devops/) verfügbar.
 
+[Offizielle Seite der Hochschule Heilbronn ⏭](https://www.hs-heilbronn.de/devops)
+
+<!-- 
 ## Lecture Slides 
 
 * 🇩🇪 [Überblick und Einführung](slides/devops.01.de.pdf) 
@@ -51,3 +54,4 @@ This course is being taught as a part of the Bachelor Software Engineering at He
 All the code in this repository is made available under the MIT license unless otherwise noted.
 
 The slides are published under the terms of the [CC-By 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+-->
