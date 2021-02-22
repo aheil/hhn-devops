@@ -5,7 +5,7 @@ Dieser Kurs ist ein Grundlagenkurs im Bachelor Studiengang Software Engineering 
 ## Dozent 
 Prof. Andreas Heil
 
-## Course Number 
+## Kursnummer 
 
 262062 (SPO4)
 
@@ -24,4 +24,4 @@ Bachelor (SEB)
 ## Lizenz 
 
 Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer
- [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/). 
+ [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/). 

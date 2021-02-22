@@ -53,7 +53,7 @@ Die Note ergibt sich aus insgesamt 100 Punkten:
 | Aktivitäten | Anteil an der Note |
 | --- | --- | 
 | Hausaufgaben | 30% |
-| Labs | 30$ |
+| Labs | 30% |
 | Endprojekt und Präsentation | 20 % |
 | Hausaufgaben und Mitarbeit im Kurs | 20 % | 
 
