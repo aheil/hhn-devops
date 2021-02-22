@@ -19,7 +19,7 @@ Bachelor (SEB)
 
 ## Workload
 
-30h Unterricht / 90h Selbststudium
+30h Lerneinheiten / 90h Selbststudium
 
 ## Lizenz 
 
