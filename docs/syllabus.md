@@ -59,7 +59,7 @@ Die Note ergibt sich aus insgesamt 100 Punkten:
 
 Labs werden auf Basis der Korrektheit bewertet, inwiefern die angegebenen Spezifikationen erfüllt werden. Die Prüfung findet durch automatisierte Tests, Test Frameworks, Skripte und Checklisten statt. 
 
-Die Endnote berechnet sich nach folgender Punkteskala:
+Die Endnote berechnet sich nach der folgender Punkteskala:
 
 ||||||||||||||
 |-|-|-|-|-|-|-|-|-|-|-|-|-| 
@@ -68,7 +68,7 @@ Die Endnote berechnet sich nach folgender Punkteskala:
 
 ## Abgaben
 
-Hausaufgaben als auch praktische Abgaben erfolgen via ILIAS zum angegebenen Zeitpunkt. Aufgaben, die nicht fristgemäß eingereicht wurden werden mit 0 Punkte bewertet. 
+Hausaufgaben als auch praktische Abgaben erfolgen via ILIAS zum angegebenen Zeitpunkt. Aufgaben, die nicht fristgemäß eingereicht wurden, werden mit 0 Punkte bewertet. 
 
 ## Zusammenarbeit
 
