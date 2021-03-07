@@ -2,7 +2,7 @@
 
 | Vorbereitungen | Dateien |
 | --- | --- |
-| #1 | [What are Containers](https://www.openshift.com/blog/containers-are-linux) |
+| #1 | [Containers are Linux](https://www.openshift.com/blog/containers-are-linux) |
 
 | Hausaufgaben | Aufgaben |
 | --- | --- |
