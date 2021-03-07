@@ -12,4 +12,4 @@ In this lab, you will create a docker image providing a basic web server.
 * Make sure the nginx server starts when the container based on your image started.
 
 
-**Remark: Do not use the official NGINX docker cotainer, make sure to install nginx instead using your Dockerfile.**
+**Remark: Do not use the official NGINX docker image, make sure to install nginx instead using your own Dockerfile.**
