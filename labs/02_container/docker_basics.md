@@ -1,4 +1,4 @@
-# Lab: Docker Basics
+# Exercise: Docker Basics
 
 ## Task 1: Prepare 
 1. Read [Orientan and setup](https://docs.docker.com/get-started/) from *docker docs*.
