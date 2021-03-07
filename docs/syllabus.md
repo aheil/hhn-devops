@@ -17,7 +17,7 @@ Die Veranstaltung basiert u.a. auf dem Buch *Das DevOps Handbuch* von Gene Kim a
 
 Programmierkenntnisse als auch ein sicherer Umgang mit Git bzw. GitLab wird vorausgesetzt. Der erfolgreiche Abschluss der Veranstaltung Developer Tools im Software Engineering (262051) ist daher empfohlen. Grundlagen in der Erstellung von Skripten sollten bereits in der Vorlesung Betriebssysteme (262007) erworben worden sein. Die erfolgreiche Teilnahme an Grundlagen verteilter Systeme (262055) und Software Engineering komplexer Systeme (262061) ist ebenfalls empfohlen, da zahlreiche Konzepte der darin behandelten Themen aufgegriffen werden. 
 
-Die Veranstaltung findet dabei überwiegend nach dem Konzept des "Inverted Classroom" statt. Als Vorbereitung auf die Präsenzveranstaltung stehen teilweise Screencasts zur Verfügung. In der Präsenzveranstaltung können offene Fragen aus den Screencasts und Übungsaufgabe besprochen. Exkurse und Diskussionen rund um aktuelle Themen und Tools runden die Veranstaltung ab.
+Die Veranstaltung findet dabei überwiegend nach dem Konzept des **Inverted Classroom** statt. Als Vorbereitung auf die Präsenzveranstaltung stehen teilweise Screencasts zur Verfügung. In der Präsenzveranstaltung können offene Fragen aus den Screencasts und Übungsaufgabe besprochen. Exkurse und Diskussionen rund um aktuelle Themen und Tools runden die Veranstaltung ab.
 
 In Einzel- und Gruppenarbeit werden wöchentliche Aufgabenstellungen erarbeitet, deren erfolgreiche Bearbeitung Voraussetzung zum Bestehen des Kurses ist. 
 
@@ -29,7 +29,7 @@ Der Inhalt der Veranstaltung kann aufgrund der Weiterentwicklung der Technologie
 
 ## Vorlesungen 
 
-Jede Vorlesung behandelt ein spezielles Thema. Teilweise werden Aufgabenstellungen bereitgestellt, die bis 21:00 Uhr am Vorabend via ILIAS einzureichen sind.
+Jede Vorlesung behandelt ein spezielles Thema. Teilweise werden Aufgabenstellungen bereitgestellt, die bis 21:00 Uhr am Vorabend der darauffolgenden Vorlesung via ILIAS einzureichen sind.
 
 Dies beinhaltet 
 
@@ -44,7 +44,7 @@ Es wird zwei Tests während den regulären Vorlesungseinheiten geben. Es wird ke
 
 ## Hausaufgaben
 
-Es gibt 3 Labs dun ein Abschlussprojekt. Labs sind echte Aufgabenstellungen. Alle Labs sind im Pair-Programming zu bearbeiten und werden als Gruppe bearbeitet. Das Abschlussprojekt wird in Gruppen von 4-6 Student*innen angefertigt und in der letzten Vorlesungseinheit dem Kurs vorgestellt.
+Es gibt 3 Labs und ein Abschlussprojekt. Labs sind echte Aufgabenstellungen. Alle Labs sind im Pair Programming zu bearbeiten und werden als Gruppe bearbeitet. Das Abschlussprojekt wird in Gruppen von 4-6 Student*innen angefertigt und in der letzten Vorlesungseinheit dem Kurs vorgestellt.
 
 ## Benotung
 
@@ -55,7 +55,7 @@ Die Note ergibt sich aus insgesamt 100 Punkten:
 | Hausaufgaben | 30% |
 | Labs | 30% |
 | Endprojekt und Präsentation | 20 % |
-| Hausaufgaben und Mitarbeit im Kurs | 20 % | 
+| Quiz/Tests | 20 % | 
 
 Labs werden auf Basis der Korrektheit bewertet, inwiefern die angegebenen Spezifikationen erfüllt werden. Die Prüfung findet durch automatisierte Tests, Test Frameworks, Skripte und Checklisten statt. 
 
@@ -72,7 +72,7 @@ Hausaufgaben als auch praktische Abgaben erfolgen via ILIAS zum angegebenen Zeit
 
 ## Zusammenarbeit
 
-Tests und Hausaufgaben sind individuell zu bearbeiten. Es wird empfohlen sich bezüglich der Labs teamübergreifend auszutauschen. Die Aufgaben sind jedoch in Pair-Programming zu bearbeiten. Ideen, Hilfestellungen etc. sowohl von anderen Kursmitgliedern als auch von andere Quelle sollten entsprechend gekennzeichnet und gemäß gültiger Standards referenziert werden. Bei Gruppenabgaben und Pair-Programming werden alle Team-Mitglieder gleichermaßen bewertet, außer ein Team-Mitglied beschwert sich hinsichtlich der Bewertung. In diesem Fall findet anstelle dessen eine individuelle Bewertung statt.
+Tests und Hausaufgaben sind individuell zu bearbeiten. Es wird empfohlen sich bezüglich der Labs teamübergreifend auszutauschen. Die Aufgaben sind jedoch in Pair Programming zu bearbeiten. Ideen, Hilfestellungen etc. sowohl von anderen Kursmitgliedern als auch von externen Quelle sollten entsprechend gekennzeichnet und gemäß gültiger Standards referenziert werden. Bei Gruppenabgaben und Pair Programming werden alle Team-Mitglieder gleichermaßen bewertet, außer ein Team-Mitglied beschwert sich hinsichtlich der Bewertung. In diesem Fall findet anstelle dessen eine individuelle Bewertung jedes einzelnen Team-Mitgliedes statt.
 
 
 
