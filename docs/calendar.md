@@ -4,8 +4,8 @@
 | --- | --- | --- |
 | 1 | Begrüßung, Überblick DevOps | | 
 | 2 | Einführung in Container & Docker | |
-| 3 | 3 Wege und Flow | |
-| 4 | Kanban | |
+| 3 | 3 Wege und Flow | Hausaufgabe #1 Docker Basics |
+| 4 | Kanban | Lab #1 Docker Container |
 | 5 | Value Stream Maps | |
 | 6 | Automatisierung mit Ansible | |
 | 7 | Virtualisierung und Vagrant | |
