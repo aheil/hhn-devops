@@ -2,8 +2,8 @@
 
 | Einheit # | Thema | Termine |
 | --- | --- | --- |
-| 1 | Begrüßung, Überblick DevOps | Vorbereitung: #1 Containers are Linux| 
-| 2 | Einführung in Container & Docker | |
+| 1 | Begrüßung, Überblick DevOps | | 
+| 2 | Einführung in Container & Docker | Vorbereitung: #1 What are Containers? |
 | 3 | 3 Wege und Flow | Hausaufgabe #1 Docker Basics |
 | 4 | Kanban | Lab #1 Docker Container |
 | 5 | Value Stream Maps | |
