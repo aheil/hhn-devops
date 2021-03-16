@@ -17,7 +17,7 @@ Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
-v1.0.0
+v1.1.0
 
 ---
 
@@ -59,7 +59,7 @@ img[alt~="r1"] {
 
 # Beschleunigter Trend 
 
-| | 1970er bis 1980er | 1990er | 200er bis heute |
+| | 1970er bis 1980er | 1990er | 2000er bis heute |
 |---|---|---|---|
 |Ära|Mainframes|Client/Server|Commodities u. Cloud|
 |Repräsentative Technologien|COBOL, DB2|C++, Oracle, Solaris|Java, MySQL, Red Hat, Ruby on Rails, PHP, JS|
@@ -78,7 +78,7 @@ img[alt~="r1"] {
 
 # Die Abwärtsspiral 1/3 
 
-* Instandhalten zentraler, kritischer und meist sehr fragiler Systembestandteile – „… wir räumen das später auf…“
+* Instandhalten zentraler, kritischer und meist sehr fragiler Systembestandteile –<br /> „… wir räumen das später auf…“
 
 * Die Systeme, die an den ehesten Problemen bereiten 
     * Sind unserer wichtigsten Systeme
@@ -237,6 +237,13 @@ Die drei grundlegenden Metriken bzw. Kennzahlen Durchlaufzeit, Verarbeitungszeit
 Probleme langer Deployment Durchläufe **verstehen** und **erkennen können**. 
 
 Den Unterschied zwischen Durchlaufzeiten und Verarbeitungszeit **verstehen**. 
+
+---
+
+# Warum Kennzahlen? 
+
+> Measurement is the first step that leads to control and eventually to improvement. If you can’t measure something, you can’t understand it. If you can’t understand it, you can’t control it. If you can’t control it, you can’t improve it. - Dr. H. James Harrington.
+
 
 ---
 
