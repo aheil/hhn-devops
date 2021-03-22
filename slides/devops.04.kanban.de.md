@@ -17,7 +17,7 @@ Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
-v1.0.1
+v1.0.2
 
 ---
 
@@ -91,7 +91,7 @@ Kanban System wurde sowohl für die Produktion als die Software Entwicklung adap
 
 ---
 
-# Kanban Board - Tips
+# Kanban Board - Tipps
 
 * Große Boards verwenden (s. Information Radiator)
 * Digitale und physische Boards haben beide Vor- und Nachteile 
@@ -155,17 +155,17 @@ Täglich, u.U. auch wöchentlich oder zwei-wöchentlich
 
 ---
 
-# Auswirkung von Parllelität
+# Auswirkung von Parallelität
 ![center](../img/devops.04.parallelitaet.png)
 
 ---
 
-# WiP Limit
+# WiP-Limit
 ![center](../img/devops.04.sequentiel.png)
 
 ---
 
-# WiP Limit Wisdoms
+# WiP-Limit Wisdoms
 
 * Es gibt keine »goldene Regel«
 * Beobachten und anpassen
