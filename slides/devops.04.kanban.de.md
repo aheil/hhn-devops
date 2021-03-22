@@ -17,7 +17,7 @@ Prof. Dr.-Ing. Andreas Heil
 
 ![h:32 CC 4.0](../img/cc.svg)![h:32 CC 4.0](../img/by.svg) Licensed under a Creative Commons Attribution 4.0 International license. Icons by The Noun Project.
 
-v1.0.0
+v1.0.1
 
 ---
 
@@ -41,7 +41,7 @@ v1.0.0
 
 # Kanban Ursprung
 
-* Jap. kan 看 (sichtbar) und ban  板 (Karte o.d Brett)
+* Jap. *kan* 看 (sichtbar) und *ban*  板 (Karte o.d Brett)
 * Konzepte entstammen dem Toyota Production System (TSP)
 * Konkret: Just-in-Time Scheduling System
     * Nur »machen« was benötigt wird 
@@ -147,7 +147,7 @@ Täglich, u.U. auch wöchentlich oder zwei-wöchentlich
 # Little's Law
 
 * Ursprung: John D.C. Little 
-    * In den 1950 einfach angenommen
+    * In den 1950ern einfach angenommen
     * Erst Ende der 1960er bewiesen 
 * Bedeutung: Je mehr gleichzeitig bearbeitet wird, desto länger dauert die Fertigstellung aller »Work Items«
 
@@ -165,30 +165,26 @@ Täglich, u.U. auch wöchentlich oder zwei-wöchentlich
 
 ---
 
-#ä WiP Limit Wisdoms
+# WiP Limit Wisdoms
 
 * Es gibt keine »goldene Regel«
 * Beobachten und anpassen
 * Guter Ansatz: »Stop starting, start finishing « 
 * Beispiel 1: Um Pairing zu forcieren kann ein WiP-Limit von $Teamgröße -1$ gewählt werden 
-* Beispiel 2: Existieren z.B. externe Abhängigkeiten (=Wartezeiten) kann ein WiP Limit von $Teamgröße \cdot 2$ gewählt werden um Wartezeiten (engl. idle time) zu vermeiden
+* Beispiel 2: Existieren z.B. externe Abhängigkeiten (=Wartezeiten) kann ein WiP-Limit von $Teamgröße \cdot 2$ gewählt werden um Wartezeiten (engl. idle time) zu vermeiden
 * Beispiel 3: … 
-
----
-
-# Praxis Tipps
 
 ---
 
 # Praxis Tipps 
 
 * Durchsatz erhöhen
-* Verschwendung (jap. muda 無駄) z.B. durch Wartezeiten oder Blocker vermeiden 
+* Verschwendung (jap. *muda* 無駄) z.B. durch Wartezeiten oder Blocker vermeiden 
 * Probleme schnell lösen 
 * Kanban ermöglicht häufig Priorisierung (signifikanter Unterschied zu Scrum) 
-* Geeignet für kleine und bekannte Arbeitseinheiten (z.B. im Ops Umfeld) 
+* Geeignet für kleine und bekannte Arbeitseinheiten (z.B. im Ops-Umfeld) 
 * Schlechter für Entwicklung, da Aufgaben geschätzt werden müssen 
-WiP-Limits einhalten
+* WiP-Limits einhalten
 
 ---
 
