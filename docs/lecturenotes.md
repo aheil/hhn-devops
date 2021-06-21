@@ -10,6 +10,8 @@
 | 5 | 🇩🇪 [ Value Stream Maps](https://github.com/aheil/hhn-devops/raw/main/slides/devops.05.value-stream-maps.de.pdf)|
 | 6 | 🇩🇪 [ Automatisierung mit Ansible](https://github.com/aheil/hhn-devops/raw/main/slides/devops.06.automatisierung.de.pdf)|
 
+| 7 | 🇩🇪 [ Automatisierung mit Vagrant](https://github.com/aheil/hhn-devops/raw/main/slides/devops.07.vagrant.de.pdf)|
+| 8 | 🇩🇪 [ Automatisierung mit Ansible](https://github.com/aheil/hhn-devops/raw/main/slides/devops.08.minikube.de.pdf)|
 
 
 
