@@ -9,9 +9,11 @@
 | 4 | 🇩🇪 [ Kanban ](https://github.com/aheil/hhn-devops/raw/main/slides/devops.04.kanban.de.pdf)|
 | 5 | 🇩🇪 [ Value Stream Maps](https://github.com/aheil/hhn-devops/raw/main/slides/devops.05.value-stream-maps.de.pdf)|
 | 6 | 🇩🇪 [ Automatisierung mit Ansible](https://github.com/aheil/hhn-devops/raw/main/slides/devops.06.automatisierung.de.pdf)|
-
 | 7 | 🇩🇪 [ Automatisierung mit Vagrant](https://github.com/aheil/hhn-devops/raw/main/slides/devops.07.vagrant.de.pdf)|
 | 8 | 🇩🇪 [ Automatisierung mit Ansible](https://github.com/aheil/hhn-devops/raw/main/slides/devops.08.minikube.de.pdf)|
+| 9 | 🇩🇪 [ Automatisierung mit Terraform](https://github.com/aheil/hhn-devops/raw/main/slides/devops.09.terraform.de.pdf)|
+| 10 | 🇩🇪 [ Automatisierung mit CI/CD](https://github.com/aheil/hhn-devops/raw/main/slides/devops.10.cicd.de.pdf)|
+
 
 
 
